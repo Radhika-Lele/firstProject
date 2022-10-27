@@ -1,16 +1,15 @@
 package com.company;
-
+//Program to find the sum of natural numbers from 1 to 1000.
 public class Day4 {
 
     public static void main(String[] args) {
-        int result = sum(5, 5);
-        //  System.out.println(  sum(5,5)  );
-        System.out.println(result);
+        int sum=0;
+        for(int i=1;i<=1000;i++){
+            sum=i+sum;
+        }
+        System.out.println(sum);
     }
 
-    public static int sum(int a, int b){
-        return a+b;
+
     }
 
-
-}
