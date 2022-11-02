@@ -10,5 +10,6 @@ public class Fibonacci {
             n2=n3;
         }
         System.out.println(n3);
+        System.out.println("jump 10 times");
     }
 }
