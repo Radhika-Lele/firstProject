@@ -1,13 +1,14 @@
 public class Loops {
     public static void main(String[] args) {
 
-        int sum = 0;
-        for (int i = 10; i < 15; i++) {
 
-            sum = sum + i;
-            System.out.println(i);
+        for (int i = 1; i <= 5 ; i++) {       //this is outer room rows, i is rows, i.e print 4 rows
+
+            for (int j = 1; j <= i; j++) {       // this is inner room, j refer as column , i.e print task 3 times, break main task in 3 parts
+                System.out.print(j+" ");
+            }
+            System.out.println();
         }
-
 
 
     }
