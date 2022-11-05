@@ -1,4 +1,5 @@
 package com.company.day6;
+import java.sql.SQLOutput;
 import java.util.*;
 import java.util.Scanner;
 
@@ -14,7 +15,7 @@ public class Factorial {
         }
 
         System.out.println("Factorial of number : " + i);
-
+        System.out.println("Vivek changes");
 
     }
 }
